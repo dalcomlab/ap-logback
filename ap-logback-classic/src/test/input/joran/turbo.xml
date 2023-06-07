@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+
+<configuration>
+  <turboFilter class="com.dalcomlab.ap.logback.classic.turbo.NOPTurboFilter" />
+
+  <appender name="CONSOLE" class="com.dalcomlab.ap.logback.core.ConsoleAppender">
+    <layout class="com.dalcomlab.ap.logback.classic.PatternLayout">
+      <Pattern>%caller{4} %d %level - %m%n</Pattern>
+    </layout>
+  </appender>
+  
+  <root>
+    <level value="DEBUG" />
+    <appender-ref ref="CONSOLE" />
+  </root>
+</configuration>
+  

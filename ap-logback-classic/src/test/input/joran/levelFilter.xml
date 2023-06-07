@@ -1,0 +1,14 @@
+<configuration>
+
+  <appender name="LIST" class="com.dalcomlab.ap.logback.core.read.ListAppender">
+
+    <filter class="com.dalcomlab.ap.logback.classic.filter.LevelFilter">
+      <OnMatch>DENY</OnMatch>
+      <level>ERROR</level>
+    </filter>
+  </appender>
+
+  <root level="debug">
+    <appender-ref ref="LIST" />
+  </root>
+</configuration>

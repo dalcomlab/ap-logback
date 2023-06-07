@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+
+
+  <appender name="LIST" class="com.dalcomlab.ap.logback.core.read.ListAppender"/>
+
+  <root>
+    <level value="DEBUG"/>
+    <appender-ref ref="LIST"/>
+  </root>
+         <statusListener class="com.dalcomlab.ap.logback.core.status.OnConsoleStatusListener"/>
+</configuration>
+  

@@ -1,0 +1,8 @@
+
+<configuration>
+
+  <appender name="LIST" class="com.dalcomlab.ap.logback.core.read.ListAppender"/>
+  <root level="DEBUG">
+		<appender-ref ref="LIST" />
+	</root>
+</configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+
+<configuration debug="false">
+
+  <appender name="LIST" class="com.dalcomlab.ap.logback.core.FileAppender">
+    <file>target/test-output/osgi-test.log</file>
+    <layout>
+      <pattern>%d %level - %m%n</pattern>
+    </layout>
+  </appender>
+  
+  <logger name="com.dalcomlab.ap.logback.classic.joran" level="INFO" />
+
+  <root level="DEBUG">
+    <appender-ref ref="LIST" />
+  </root>
+
+</configuration>

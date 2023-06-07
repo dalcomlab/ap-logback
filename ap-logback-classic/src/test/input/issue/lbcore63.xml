@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+
+  <appender name="STDOUT" class="com.dalcomlab.ap.logback.core.ConsoleAppender">
+    <layout class="com.dalcomlab.ap.logback.classic.PatternLayout">
+      <pattern>%d{HH:mm:ss.SSS} - %msg%n</pattern>
+    </layout>
+  </appender>
+
+  <appender name="FILE-MAIN"
+    class="com.dalcomlab.ap.logback.core.rolling.RollingFileAppender">
+    <file>logs/main.log</file>
+    <rollingPolicy
+      class="com.dalcomlab.ap.logback.core.rolling.FixedWindowRollingPolicy">
+      <FileNamePattern>logs/main-%i.log</FileNamePattern>
+      <MinIndex>1</MinIndex>
+      <MaxIndex>3</MaxIndex>
+    </rollingPolicy>
+    <triggeringPolicy
+      class="com.dalcomlab.ap.logback.core.rolling.SizeBasedTriggeringPolicy">
+      <MaxFileSize>500MB</MaxFileSize>
+    </triggeringPolicy>
+    <layout class="com.dalcomlab.ap.logback.classic.PatternLayout">
+      <Pattern>%-25(%7r [%thread]) - %msg%n</Pattern>
+    </layout>
+  </appender>
+
+  <root>
+    <appender-ref ref="FILE-MAIN" />
+    <level value="DEBUG" />
+  </root>
+
+</configuration>
