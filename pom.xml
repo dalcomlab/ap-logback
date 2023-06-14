@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dalcomlab.ap.logback</groupId>
-    <artifactId>ap-logback-parent</artifactId>
+    <groupId>com.dalcomlab.logback</groupId>
+    <artifactId>logback-parent</artifactId>
     <version>1.2.11</version>
     <packaging>pom</packaging>
     <modules>
-        <module>ap-logback-core</module>
-        <module>ap-logback-classic</module>
+        <module>logback-core</module>
+        <module>logback-classic</module>
     </modules>
 
     <properties>

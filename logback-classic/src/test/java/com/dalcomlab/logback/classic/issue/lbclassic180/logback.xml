@@ -1,0 +1,16 @@
+<configuration debug="true">
+
+  <conversionRule conversionWord="htmlEscapedMessage"
+                  converterClass="com.dalcomlab.logback.com.dalcomlab.logback.com.dalcomlab.logback.classic.issue.lbclassic180.HtmlEscapedMessageConverter"/>
+
+  <appender name="CON" class="com.dalcomlab.logback.core.ConsoleAppender">
+    <encoder class="com.dalcomlab.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="com.dalcomlab.logback.com.dalcomlab.logback.classic.html.HTMLLayout">
+        <pattern>%d{HH:mm:ss.SSS}%logger{1}%htmlEscapedMessage</pattern>
+      </layout>
+    </encoder>
+  </appender>
+  <root level="DEBUG">
+    <appender-ref ref="CON"/>
+  </root>
+</configuration>

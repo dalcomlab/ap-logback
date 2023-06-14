@@ -1,0 +1,15 @@
+<configuration>
+
+  <appender name="STDOUT"
+    class="com.dalcomlab.logback.core.ConsoleAppender">
+    <layout class="com.dalcomlab.logback.classic.PatternLayout">
+      <param name="Pattern"
+        value="TEST %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />
+    </layout>
+  </appender>
+
+  <root>
+    <level value="ERROR" />
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>

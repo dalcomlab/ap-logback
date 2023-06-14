@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+
+<configuration debug="false">
+
+
+  <statusListener class="com.dalcomlab.logback.classic.joran.TrivialStatusListener"/>
+  
+  <appender name="LIST" class="com.dalcomlab.logback.core.read.ListAppender"/>
+   <logger name="com.dalcomlab.logback.classic.joran">
+    <level value="INFO" />
+  </logger>
+
+  <root>
+    <level value="DEBUG" />
+    <appender-ref ref="LIST" />
+  </root>
+  
+</configuration>
+  

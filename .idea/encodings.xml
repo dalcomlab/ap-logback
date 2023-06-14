@@ -3,10 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ap-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ap-core/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ap-logback-classic/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ap-logback-classic/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ap-logback-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ap-logback-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logback-classic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logback-classic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logback-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logback-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

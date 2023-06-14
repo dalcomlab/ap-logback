@@ -1,3 +1,0 @@
-<define name="foo" class="com.dalcomlab.ap.logback.core.joran.action.AsLowerCasePropertyDefiner">
-  <value>MONSTER</value>
-</define>

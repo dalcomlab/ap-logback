@@ -1,0 +1,3 @@
+<define class="com.dalcomlab.logback.action.joran.com.dalcomlab.logback.core.AsLowerCasePropertyDefiner">
+    <value>Monster</value>
+</define>

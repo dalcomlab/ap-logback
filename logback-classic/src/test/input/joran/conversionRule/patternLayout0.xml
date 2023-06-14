@@ -1,0 +1,15 @@
+<configuration>
+
+  <conversionRule conversionWord="sample"
+    converterClass="com.dalcomlab.logback.classic.testUtil.SampleConverter" />
+
+  <appender name="LIST" class="com.dalcomlab.logback.core.testUtil.StringListAppender">
+    <layout class="com.dalcomlab.logback.classic.PatternLayout">
+      <Pattern>%sample - %msg</Pattern>
+    </layout>
+  </appender>
+
+  <root level="debug">
+    <appender-ref ref="LIST" />
+  </root>
+</configuration>

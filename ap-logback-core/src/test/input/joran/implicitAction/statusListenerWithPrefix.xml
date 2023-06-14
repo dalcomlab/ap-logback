@@ -1,5 +1,0 @@
-<context>
-  <statusListener class="com.dalcomlab.ap.logback.core.status.OnConsoleStatusListener" >
-    <prefix>aPrefix</prefix>
-  </statusListener>  
-</context>

@@ -1,7 +1,0 @@
-<configuration>
-  <timestamp key="testTimestamp" datePattern="yyyy-MM"/>
-  <property scope="system"  
-  	name="com.dalcomlab.ap.logback.classic.joran.JoranConfiguratorTest.timestampLocal"
-  	value="today is ${testTimestamp}"/>
-</configuration>
-  
